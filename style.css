@@ -217,6 +217,7 @@ body {
 .mainBodyContentWrapper {
     display: flex;
     justify-content: center;
+    margin-top: 3px;
 }
 
 .mainBodyContent {
@@ -366,7 +367,7 @@ body {
     font-weight: bold;
 }
 
-.BenefitsRowWrapper {
+.BenefitsRowWrapper, .installServicesRow{
     width: 100%;
     height: 488px;
     display: flex;
@@ -375,7 +376,7 @@ body {
 
 }
 
-.benefitsBoxWrapper, .recentlyBoxWrapper, .percentBoxWrapper {
+.benefitsBoxWrapper, .recentlyBoxWrapper, .percentBoxWrapper, .installServicesCell {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -609,6 +610,7 @@ body {
 width: 100%;
 display: flex;
 flex-direction: column;
+margin-bottom: 30px;
 }
 
 .categoryHeader {
@@ -649,4 +651,86 @@ margin-bottom: 18px;
 
 .categoryText {
     font-size: 14px;
+}
+
+.installServicesCell {
+    width: 30%;
+}
+
+.installServicesCellNoBorder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    height: 488px;
+    background-color: white;
+    width: 30%;
+}
+
+.forYouRow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.forYouCellDouble {
+    width: 63%;
+    height: 424px;
+    border: 1px solid lightgray;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.forYouCell {
+    width: 30%;
+    height: 424px;
+    border: 1px solid lightgray;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sponsoredWrapper {
+    width: 100%;
+    height: 62px;
+    border: 1px solid lightgray;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.sponsoredText {
+    font-size: 24px;
+    font-weight: bold;
+    color: #212120;
+    margin-left: 20px;
+}
+
+.todayWrapper {
+    width: 100%;
+    height: 830px;
+    border: 1px solid lightgray;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.searchByWrapper {
+    width: 100%;
+    height: 230px;
+    border: 1px solid lightgray;
+    background-color: white;
+    display: flex;
+    align-items: center;
 }
