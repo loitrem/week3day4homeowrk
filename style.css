@@ -280,7 +280,6 @@ body {
 .fatherDaySavingsLinksWrapper {
     display: flex;
     background-color: white;
-    margin-bottom: 25px;
 }
 
 .fathersDayLinkActive {
@@ -311,8 +310,8 @@ body {
 .fathersDaySavingsWrapper {
     display: flex;
     height: 310px;
-   background-color: white;
-   justify-content: space-around;
+    background-color: white;
+    justify-content: space-around;
 }
 
 .topPicks {
