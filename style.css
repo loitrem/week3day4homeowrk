@@ -1,0 +1,393 @@
+body {
+    margin: 0;
+    font-family: helvetica-neue,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: #f5f5f5;
+}
+
+.topHeader {
+    background-color: #F96302;   
+    text-align: center;
+    color: white;
+    height: 32px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.topHeaderText {
+    padding-top: 2px;
+}
+
+.mainHeaderWrapper {
+    background-color: white;
+    height: 139px;
+    box-shadow: 0 6px 6px -4px lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+.centerMainHeaderWrapper {
+    background-color: white;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topHeaderLinksWrapper {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 55%;
+    height: 25px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topHeaderLinks {
+    font-size: 11px;
+    color: #333333;
+    margin-right: 21px;
+}
+
+.headerLeft {
+    display: flex;
+    height: 64px;
+}
+
+.homeDepotLogoImg {
+    height: 64px;
+    width: 64px;
+}
+
+.yourShoppingwrapper {
+    margin-left: 20px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: bottom;
+    margin-top: auto;
+    width: 150px;
+}
+
+.chevDown {
+    height: 7.5px;
+    width: 12px;
+}
+
+.greenDot {
+    height: 11px;
+    width: 11px;
+}
+
+.yourShopping {
+    font-size: 14px;
+}
+
+.location {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.open {
+    color: green;
+    font-size: 14px;
+}
+
+.openText {
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.deliveringWrapper {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid black;
+    width: 100px;
+    text-align: center;
+}
+
+.deliverTo {
+    margin-top: 15px;
+}
+
+.headerMiddle {
+    width: 60%;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: end;
+}
+
+.searchbarWrapper {
+    display: flex;
+}
+
+.input {
+    width: 625px;
+    height: 34px;
+    border: 1px solid black;
+}
+
+.searchIcon {
+    background-color: #F96302;
+    height: 36px;
+    width: 30px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.searchIconImg {
+    height: 30px;
+    width:30px;
+}
+
+
+.headerRight {
+    width: 35%;
+    display: flex;
+    justify-content: right;
+}
+
+.headerRightInnerWrapper {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+}
+
+.cart {
+    display: flex;
+}
+
+.myAccount, .lists, .cartText{
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.accountIconImg, .cartIconImg, .heart {
+    height: 24px;
+    width: 24px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.bottonHeaderLinksWrapper {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 47px;
+}
+
+.bottomHeaderLinks {
+    font-size: 14px;
+}
+
+.mainBodyContentWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.mainBodyContent {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topPicImg {
+    width: 100%;
+}
+
+.topImageBottomSpacer {
+    text-align: right;
+    padding: 10px;
+    font-size: 18px;
+    height: 64px;
+}
+
+.dadKnows {
+    background-image: url("https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/fetch/Events/FathersDay-RM-Banner-4410827-dsk.jpg");
+    height: 152px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.arrow {
+    font-size: 20px;
+    height: 53px;
+    width: 30px;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #F96302;
+}
+
+.fathersDaySavingsMainWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.fathersDaySavingsBanner {
+    height: 92px;
+    border-top: 8px solid #F96302;
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 30px;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+.fatherDaySavingsLinksWrapper {
+    display: flex;
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+.fathersDayLinkActive {
+    font-size: 18px;
+    font-weight: bold;
+    color:#F96302;
+    border-bottom: 5px solid #F96302;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 15px;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+
+}
+
+.fathersDayLink {
+    font-size: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 15px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    color: #3e7697;
+}
+
+.fathersDaySavingsWrapper {
+    display: flex;
+    height: 310px;
+   background-color: white;
+}
+
+.topPicks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-right: 1px solid lightgray;
+    height: 206px;
+    margin-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    color: #3e7697;
+}
+
+.topPicsImg {
+    width: 154px;
+    height: 105px;
+    margin-bottom: 15px;
+}
+
+.prodWrapper {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.prod {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25%;
+}
+
+.prodPicImg {
+    width: 162px;
+    height: 162px;
+}
+
+.prodDesc{
+    font-size: 14px;
+}
+
+.star {
+    height: 15px;
+    width: 15px;
+}
+
+.cost {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.BenefitsRowWrapper {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.benefitsBoxWrapper, .reventlyViewedBoxWrapper, .PercentBoxWrapper {
+    width: 31%;
+    border:1px solid black;
+    background-color: white;
+}
+
+.juneBoxWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.juneBoxHeader {
+    height: 92px;
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.juneBoxRow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    margin-bottom: 25px;
+}
+
+.juneBoxCell {
+    width: 31%;
+    border:1px solid black;
+    background-color: white;
+}
