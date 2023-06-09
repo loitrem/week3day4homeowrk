@@ -293,6 +293,7 @@ body {
     display: flex;
     height: 310px;
    background-color: white;
+   justify-content: space-around;
 }
 
 .topPicks {
@@ -318,7 +319,6 @@ body {
 
 .prodWrapper {
     display: flex;
-    justify-content: center;
     background-color: white;
 }
 
@@ -326,7 +326,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 25%;
+    width: 250px;
 }
 
 .prodPicImg {
@@ -350,22 +350,142 @@ body {
 
 .BenefitsRowWrapper {
     width: 100%;
-    height: 350px;
+    height: 488px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
+
 }
 
-.benefitsBoxWrapper, .reventlyViewedBoxWrapper, .PercentBoxWrapper {
+.benefitsBoxWrapper, .recentlyBoxWrapper, .percentBoxWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    height: 488px;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+.benefitsTopGroup, .recentlyTopGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.percentBoxTopWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.percentBoxTopWrapper {
+    display: flex;
+}
+
+.percentTopLeftWrapper {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.percentTopRight {
+    width: 25%;
+    text-align: right;
+}
+
+.percentMiddleLeft {
+    font-size: 18px;
+}
+
+.percentMiddleRow {
+    display: flex;
+}
+
+.percentBottomLeft {
+    font-size: 16px;
+    font-weight: bold;
+    color: #F96302;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    height: 24px;
+}
+
+.percentCellTopImg{
+    height: 128px;
+    width: 128px;
+}
+
+.clock {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+}
+
+.benefitsTop, .recentlyTop, .percentTopLeft {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.benefitsSignIn {
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.benefitsImg {
+    height: 125px;
+    width: 427px;
+}
+
+.benefitsList {
+    font-size: 16px;
+}
+
+.create {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #F96302;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    width: 427px;
+}
+
+.recentlyNav {
+    text-align: right;
+    font-size: 24px;
+    padding: 15px;
+}
+
+.recentlyImg {
+    height: 195px;
+    width: 195px;
+}
+
+.recentlyProdDesc {
+    width: 195px;
+}
+
+.percentTopRightImg {
+    width: 53px;
+    height: 49px;
+}
+
+.benefitsBoxWrapper, .reventlyViewedBoxWrapper, .percentBoxWrapper {
     width: 31%;
-    border:1px solid black;
+    border: 1px solid lightgray;
     background-color: white;
 }
 
 .juneBoxWrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-between;
     width: 100%;
 }
 
@@ -375,21 +495,53 @@ body {
     color: black;
     font-weight: bold;
     padding-left: 20px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .juneBoxRow {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    height: 350px;
     margin-bottom: 25px;
 }
 
 .juneBoxCell {
-    width: 31%;
-    border:1px solid black;
+    width: 420px;
+    height: 424px;
+    border: 1px solid lightgray;
     background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.juneImg {
+    width: 415px;
+    height: 243px;
+}
+
+.juneHeader {
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.juneText {
+    font-size: 16px;
+}
+
+.juneShopNow {
+    color: #F96302;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #F96302;
+    height: 40px;
+    width: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .giftsWrapper {
@@ -412,7 +564,7 @@ body {
 }
 
 .giftCell {
- border: 1px solid black;
+ border: 1px solid lightgray;
  padding: 10px;
  background-color: white;
  height: 282px;
@@ -465,7 +617,6 @@ margin-bottom: 18px;
 .categoryCell {
     background-color: white;
     width: 175px;
-    border: 1px solid black;
     display: flex;
     justify-content: left;
     align-items: center;
